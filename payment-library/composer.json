@@ -1,0 +1,18 @@
+{
+    "name": "crush/payment-library",
+    "description": "Une librairie PHP pour les interfaces de paiement en ligne.",
+    "autoload": {
+        "psr-4": {
+            "PaymentLibrary\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Paydapter Team"
+        }
+    ],
+    "require": {
+        "stripe/stripe-php": "^15.0",
+        "paypal/rest-api-sdk-php": "^1.14"
+    }
+}
